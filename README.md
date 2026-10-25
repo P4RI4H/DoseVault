@@ -1,72 +1,137 @@
-DoseVault 💊
-DoseVault is a secure, 100% free, open-source medication organization, tracking, and health management Android application. Designed with privacy in mind, DoseVault contains zero ads and keeps all your health data securely on your device.
-✨ Key Features
-•
-Today's Schedule & Logging: Easily track and manage your daily doses. Mark doses as Taken, Missed, or Skipped, and add custom notes or actual dosages.
-•
-Flexible Medication Schedules: Support for Daily, Weekly (specific days), Interval-based, and PRN (as-needed) medications.
-•
-Cycle & Peptide Tracking:
-◦
-Track cycle start dates, durations (in days or weeks), and completion status.
-◦
-Calendar Cycle Visualization: View active cycles highlighted on your calendar grid with distinct START and END markers.
-◦
-Cycle Filters: Toggle individual medication or peptide cycle views on or off directly from the calendar.
-•
-Biometric Vitals & Line Graphs:
-◦
-Record vital metrics such as weight, blood pressure, blood glucose, and heart rate.
-◦
-Visualize your progress with interactive line graphs and trend analysis over 7, 30, 90, 180, or 365-day periods.
-•
-Peptide Calculator: Built-in calculation tool for peptide reconstitution and precise dosing.
-•
-Data Backup, Restore & Reports:
-◦
-Export and import full JSON backups (with selective toggles for past logs and biometric data).
-◦
-Dedicated biometric data export.
-◦
-Generate easy-read HTML log reports.
-•
-Custom Themes Vault: Choose from pre-built themes or build your own custom color scheme using the built-in theme builder and JSON import/export.
-📱 How to Use DoseVault
-1. Managing Medications (Meds Tab)
-•
-Tap the Meds tab at the bottom navigation bar to view all registered medications and PRN items.
-•
-Tap Add Medication to register a new drug, specify its dosage, unit, schedule type (Daily, Weekly, Interval, PRN), and optional cycle tracking parameters.
-•
-Tap on any medication to view detailed specs, edit dosages, or update inventory stock levels.
-2. Tracking Daily Doses (Today / Dashboard Tab)
-•
-The Today tab lists all doses due for the current day.
-•
-Tap Taken, Missed, or Skipped to record your adherence. Logged doses update in real-time.
-•
-View real-time cycle status alerts (e.g., Final Day of Cycle! 🏁) for any active peptide or medication cycles.
-3. Calendar & Cycle Heatmap (Calendar Tab)
-•
-The Calendar tab displays a color-coded heatmap of historical logs.
-•
-Cycle Grid Highlighting: Days falling within active medication/peptide cycles are highlighted with colored borders and background tints. The exact start and end days are marked with START and END indicators.
-•
-Toggle Cycles: Tap the Toggle Cycle Views button to show or hide specific medication or peptide cycles on your calendar grid.
-•
-View Biometric Data: Tap the View Biometric Data (Line Graphs & Trends) button to instantly inspect your health vitals and trend charts.
-4. Mathematical Tools (Calculator Tab)
-•
-If enabled in Settings, the Calculator tab provides mathematical peptide tools for reconstitution and dosing calculations.
-5. Settings, Backups & Supporting the Creator (Settings Tab)
-•
-App Preferences: Toggle the Calculator tab on/off and switch between 12-hour and 24-hour time formats.
-•
-Data Management: Save backups to JSON files, copy backups to the clipboard, export readable HTML reports, or import previous backups. You can also selectively include or exclude past logs and biometric data.
-•
-Themes Vault: Select, export, or import custom color themes.
-•
-About the App & Creator: DoseVault is and will always be free, open-source, and ad-free. If you find the app useful, you can support the creator (p4ri4h) directly via the built-in Donate via Cash App button (https://cash.app/$p4ri4h).
-🔒 Privacy & Open Source
-DoseVault operates entirely offline with local database storage (Room and DataStore). No medical data is sent to external servers.
-Always verify medication schedules and medical decisions with a licensed healthcare professional.
+# DoseVault 💊
+
+**DoseVault** is a secure, 100% free, open-source Android application for medication organization, dose tracking, and personal health management.
+
+Designed with privacy in mind, DoseVault is **100% ad-free** and stores your health data locally on your device. No accounts, no subscriptions, and no external servers handling your medical data.
+
+## ✨ Features
+
+### 💊 Medication Management
+- **Daily Dose Tracking:** Manage your daily medication schedule and record doses as `Taken`, `Missed`, or `Skipped`.
+- **Custom Logging:** Add notes and record actual dosages for individual entries.
+- **Flexible Scheduling:** Supports daily, weekly (specific days), interval-based, and PRN (as-needed) medications.
+- **Inventory Management:** View and update medication stock levels.
+
+### 🔄 Cycle & Peptide Tracking
+- Track cycle start dates, durations, and completion status.
+- Configure cycle durations in days or weeks.
+- **Calendar Cycle Visualization:** View active cycles directly on the calendar with distinct `START` and `END` markers.
+- **Cycle Filters:** Toggle individual medication and peptide cycle overlays on or off from the calendar.
+- **Cycle Status Alerts:** Receive visual indicators for important milestones, such as the final day of a cycle.
+
+### 📊 Biometric Vitals & Trend Analysis
+- Record personal health metrics, including:
+  - Weight
+  - Blood pressure
+  - Blood glucose
+  - Heart rate
+- Visualize progress with interactive line graphs.
+- Analyze trends across **7, 30, 90, 180, or 365-day** periods.
+
+### 🧮 Peptide Calculator
+- Calculate peptide reconstitution and dosing measurements using the built-in calculator.
+- Access mathematical tools designed to simplify common peptide calculations.
+
+*Calculator availability can be controlled through Settings.*
+
+### 💾 Backup, Restore & Reports
+- Export and import complete JSON backups.
+- Selectively include or exclude historical logs and biometric data during backup operations.
+- Export biometric data separately.
+- Generate readable HTML reports of medication logs.
+- Copy backups directly to the clipboard.
+
+### 🎨 Custom Themes Vault
+- Choose from built-in themes.
+- Create personalized color schemes with the integrated theme builder.
+- Import and export custom themes using JSON files.
+
+### ⚙️ Customization & Preferences
+- Toggle the Calculator tab on or off.
+- Switch between 12-hour and 24-hour time formats.
+- Customize the application's appearance with your preferred theme.
+
+---
+
+## 📱 How to Use DoseVault
+
+### 1. Managing Medications: Meds Tab
+
+1. Open the **Meds** tab in the bottom navigation bar to view your registered medications and PRN items.
+2. Tap **Add Medication** to register a new medication.
+3. Configure its dosage, unit, schedule type, and any optional cycle-tracking parameters.
+4. Select an existing medication to view its details, edit its dosage, or update its inventory.
+
+### 2. Tracking Daily Doses: Today Tab
+
+1. Open the **Today** tab to view all doses scheduled for the current day.
+2. Mark each dose as **Taken**, **Missed**, or **Skipped**.
+3. Add notes or record the actual dosage when needed.
+4. Monitor active cycle status alerts, including milestones such as the final day of a cycle.
+
+Dose logs update in real time as you record your entries.
+
+### 3. Calendar & Cycle Visualization: Calendar Tab
+
+The Calendar tab provides a color-coded overview of your historical medication logs and active cycles.
+
+- **Log Heatmap:** View historical adherence activity through calendar color coding.
+- **Cycle Highlighting:** Identify days within active medication or peptide cycles using colored borders and background tints.
+- **Start & End Markers:** Quickly identify the beginning and end of each cycle with `START` and `END` indicators.
+- **Cycle Visibility:** Use **Toggle Cycle Views** to show or hide individual medication and peptide cycles.
+- **Biometric Trends:** Select **View Biometric Data (Line Graphs & Trends)** to access your recorded vitals and interactive charts.
+
+### 4. Mathematical Tools: Calculator Tab
+
+When enabled in Settings, the Calculator tab provides tools for peptide reconstitution and dosing calculations.
+
+### 5. Settings, Backups & Support: Settings Tab
+
+The Settings tab provides access to application preferences, data management, themes, and creator support.
+
+**Application Preferences**
+- Enable or disable the Calculator tab.
+- Switch between 12-hour and 24-hour time formats.
+
+**Data Management**
+- Export complete JSON backups.
+- Import previously saved backups.
+- Copy backup data to the clipboard.
+- Generate readable HTML medication log reports.
+- Choose whether historical logs and biometric data are included in backups.
+
+**Themes Vault**
+- Select built-in themes.
+- Create custom color schemes.
+- Import and export themes using JSON files.
+
+**About & Creator Support**
+
+DoseVault is and will always be free, open-source, and ad-free.
+
+If you find the application useful and would like to support its creator, **p4ri4h**, you can donate directly through Cash App:
+
+[💚 Support the Creator via Cash App](https://cash.app/$p4ri4h)
+
+---
+
+## 🔒 Privacy & Security
+
+Your health data belongs to you.
+
+DoseVault is designed to operate entirely offline, using local database storage through **Room** and **DataStore**.
+
+- **Local Storage:** Your medication records, dose logs, and biometric data remain on your device.
+- **No External Servers:** The application does not send your medical data to external servers.
+- **No Ads:** No advertising SDKs or ad-supported experiences.
+- **No Subscription Fees:** All application features are free to use.
+
+**Important:** DoseVault is a personal organization and tracking tool, not a substitute for professional medical advice. Always verify medication schedules, dosages, peptide calculations, and other medical decisions with a licensed healthcare professional.
+
+---
+
+## 🛠️ Open Source
+
+DoseVault is free and open-source software. You can explore the source code, review how the application works, and contribute to its development through GitHub.
+
+If you find a bug, have a feature suggestion, or want to contribute, feel free to open an issue or submit a pull request.
